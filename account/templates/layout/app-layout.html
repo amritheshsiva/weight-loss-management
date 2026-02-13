@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Layout</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color:rgb(230, 227, 227)
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 2px solid #ccc;
+        padding: 8px;
+        text-align: center;
+        background-color:rgb(244, 244, 244);
+    }
+    th {
+        background-color: #ccc;
+        border:2px solid #a3a1a1;
+    }
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    button.b1 {
+        padding: 6px 12px;
+        cursor: pointer;
+        color:rgb(170, 145, 145);
+        background-color:rgb(204, 205, 209);
+        border-radius: 5px;
+    }
+button{
+    padding: 6px 12px;
+        cursor: pointer;
+        color:rgb(221, 221, 221);
+        background-color:rgb(51, 78, 152);
+        border-radius: 5px;
+}
+    
+    div.wt1{
+        padding-top: 25px;
+        text-align:center;
+    }
+    div.wt2{
+        text-align:center;
+        padding-top: 25px;
+    }
+    div.wt4{
+        text-align:center;
+        padding-top: 25px;
+    }
+    div.wt5{
+        text-align:center;
+        padding-top: 25px;
+    }
+    div.wt6{
+        text-align:center;
+        
+
+    }
+    
+    </style>
+</head>
+<body>
+    {% block 'content' %}
+
+    {% endblock %}
+</body>
+</html>

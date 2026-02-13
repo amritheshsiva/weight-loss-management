@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout</title>
+</head>
+<body>
+    {% extends 'layout/app-layout.html' %}
+    {% block 'content' %}
+    <div class="wt2">
+    <h2>Are you sure you want to logout?</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+    </div>
+    {% endblock %}
+
+</body>
+</html>
