@@ -24,7 +24,7 @@ The goal of this project is to make weight tracking easy and organized.
 
 * Django
 
-* HTML & CSS
-* 
+* HTML & CSS(minimal user interface)
+  
 * MySQL
 
